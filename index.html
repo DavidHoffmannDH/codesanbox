@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>reCAPTCHA</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="registrate">
+        <form class="formulario" action="" method="POST">
+          <input
+            type="text"
+            name="usuario"
+            id="usuario"
+            placeholder="Usuario"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Contraseña"
+          />
+          <input
+            type="password"
+            name="password2"
+            id="password2"
+            placeholder="Repetir Contraseña"
+          />
+          <div
+            class="g-recaptcha"
+            data-sitekey="6LcRKz8cAAAAAP16s2BQ2S0RNI9mTXxjYXqc8tSn"
+          ></div>
+          <button type="submit">Iniciar Sesion</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

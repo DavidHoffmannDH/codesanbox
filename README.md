@@ -1,4 +1,4 @@
- ## Codesandbox reCAPTCHA Template 
+ ## Codesandbox reCAPTCHA Plantilla
 
 <p align="center">
   <a href="https://r820v.csb.app/">
@@ -6,5 +6,5 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://codesandbox.io/s/serene-cloud-r820v?file=/index.html">Codesandbox reCAPTCHA Template</a>
+  <a href="https://codesandbox.io/s/serene-cloud-r820v?file=/index.html">Codesandbox reCAPTCHA Plantilla</a>
 </p>
